@@ -84,7 +84,7 @@ if st.button('Process') :
     st.write('**Credit History :**', str(ch))
     st.write('**Property Area :**', pa)
     st.write('---')
-    st.header('**Fitur After Transformation**')
+    st.header('**Features After Transformation**')
     st.write(Fitur.reshape(1,-1))
     st.write('---')
     st.header('**Prediction Result**')
